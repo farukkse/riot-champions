@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Reem Kufi Fun", sans-serif;
+  background: #f0f4fb;
+  line-height: 1.5;
+  --webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ff4655;
+}
+header > h1 > a {
+  text-decoration: none;
+  color: black;
+}
+/* NAVBAR - START */
+nav > ul {
+  list-style-type: none;
+  padding-left: 0%;
+  text-align: center;
+  width: 100%;
+  margin: 0 autos;
+}
+nav > ul > li {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+nav > ul > li > a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+nav > ul > li > a:hover {
+  color: #ff4655;
+  transition: all 0.8s ease 0s;
+  letter-spacing: 0.2em;
+}
+/* NAVBAR - END */
+/* CONTENT - START */
+.site-container {
+  margin: 2rem auto;
+  max-width: calc(100% - 80px);
+}
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  gap: 2rem;
+}
+.article-image {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.article-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+.article-card {
+  background: white;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.article-card:hover {
+  box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+  cursor: pointer;
+}
+.article-content {
+  padding: 2rem;
+}
+.article-content .article-category {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: #ff4655;
+  display: block;
+  text-decoration: none;
+}
+.article-content .card-title {
+  margin: 1rem 0;
+  color: #22447b;
+}
+.article-content .card-excerpt {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #6b82a7;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .site-container {
+    max-width: 608px;
+  }
+  .article-card {
+    display: grid;
+    grid-template-rows: 220px 1fr;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .site-container {
+    max-width: 1156px;
+  }
+}
+/* CONTENT - END */
