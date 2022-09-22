@@ -63,7 +63,7 @@ nav > ul > li > a:hover {
 .article-image img {
   max-width: 100%;
   height: auto;
-  border-radius: 20px 20px 0 0;
+  border-radius: 279px 279px 0 0;
 }
 .article-card {
   background: white;
@@ -75,7 +75,7 @@ nav > ul > li > a:hover {
   cursor: pointer;
 }
 .article-content {
-  padding: 2rem;
+  padding: 1rem;
 }
 .article-content .article-category {
   font-size: 0.875rem;

@@ -12,7 +12,44 @@
       href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <style></style>
+    <style>
+      .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+
+      .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+
+      @media screen and (max-width: 800px) {
+        .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -36,128 +73,41 @@
     </nav>
     <!-- navbar-end-->
     <!-- Content - start -->
-    <div class="site-container">
-      <div class="article-container">
-        <article class="article-card">
-          <figure class="article-image">
-            <img src="https://picsum.photos/id/237/600/300" alt="köpke" />
-          </figure>
-          <div class="article-content">
-            <a href="#" class="card-category">Köpke</a>
-            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
-            <p class="card-excerpt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              dolor illum quas consequatur quidem excepturi harum id placeat
-              iure delectus numquam facilis dicta, eius ipsa beatae commodi,
-              soluta dolorum magnam.
-            </p>
-          </div>
-        </article>
-        <article class="article-card">
-          <figure class="article-image">
-            <img src="https://picsum.photos/id/1003/600/700" alt="ceylan" />
-          </figure>
-          <div class="article-content">
-            <a href="#" class="card-category">Köpke</a>
-            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
-            <p class="card-excerpt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              dolor illum quas consequatur quidem excepturi harum id placeat
-              iure delectus numquam facilis dicta, eius ipsa beatae commodi,
-              soluta dolorum magnam.
-            </p>
-          </div>
-        </article>
-        <article class="article-card">
-          <figure class="article-image">
-            <img src="https://picsum.photos/id/1020/600/500" alt="ayı" />
-          </figure>
-          <div class="article-content">
-            <a href="#" class="card-category">Köpke</a>
-            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
-            <p class="card-excerpt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              dolor illum quas consequatur quidem excepturi harum id placeat
-              iure delectus numquam facilis dicta, eius ipsa beatae commodi,
-              soluta dolorum magnam.
-            </p>
-          </div>
-        </article>
-        <article class="article-card">
-          <figure class="article-image">
-            <img src="https://picsum.photos/id/1020/600/300" alt="ayı" />
-          </figure>
-          <div class="article-content">
-            <a href="#" class="card-category">Köpke</a>
-            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
-            <p class="card-excerpt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              dolor illum quas consequatur quidem excepturi harum id placeat
-              iure delectus numquam facilis dicta, eius ipsa beatae commodi,
-              soluta dolorum magnam.
-            </p>
-          </div>
-        </article>
-        <article class="article-card">
-          <figure class="article-image">
-            <img src="https://picsum.photos/id/1020/600/300" alt="ayı" />
-          </figure>
-          <div class="article-content">
-            <a href="#" class="card-category">Köpke</a>
-            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
-            <p class="card-excerpt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              dolor illum quas consequatur quidem excepturi harum id placeat
-              iure delectus numquam facilis dicta, eius ipsa beatae commodi,
-              soluta dolorum magnam.
-            </p>
-          </div>
-        </article>
-        <article class="article-card">
-          <figure class="article-image">
-            <img src="https://picsum.photos/id/1020/600/300" alt="ayı" />
-          </figure>
-          <div class="article-content">
-            <a href="#" class="card-category">Köpke</a>
-            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
-            <p class="card-excerpt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              dolor illum quas consequatur quidem excepturi harum id placeat
-              iure delectus numquam facilis dicta, eius ipsa beatae commodi,
-              soluta dolorum magnam.
-            </p>
-          </div>
-        </article>
-        <article class="article-card">
-          <figure class="article-image">
-            <img src="https://picsum.photos/id/1020/600/400" alt="ayı" />
-          </figure>
-          <div class="article-content">
-            <a href="#" class="card-category">Köpke</a>
-            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
-            <p class="card-excerpt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              dolor illum quas consequatur quidem excepturi harum id placeat
-              iure delectus numquam facilis dicta, eius ipsa beatae commodi,
-              soluta dolorum magnam.
-            </p>
-          </div>
-        </article>
-        <article class="article-card">
-          <figure class="article-image">
-            <img src="https://picsum.photos/id/1020/600/300" alt="ayı" />
-          </figure>
-          <div class="article-content">
-            <a href="#" class="card-category">Köpke</a>
-            <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
-            <p class="card-excerpt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              dolor illum quas consequatur quidem excepturi harum id placeat
-              iure delectus numquam facilis dicta, eius ipsa beatae commodi,
-              soluta dolorum magnam.
-            </p>
-          </div>
-        </article>
+    <!-- Photo Grid -->
+    <div class="row">
+      <div class="column">
+        <img src="/img/jett.jpg" style="width: 100%" />
+        <img src="/img/viper.jpg" style="width: 100%" />
+        <img src="/img/yoru.jpg" style="width: 100%" />
+        <img src="/img/raze.png" style="width: 100%" />
+        <img src="/img/D_4.jpg" style="width: 100%" />
+        <img src="/img/omen_2.jpg" style="width: 100%" />
+        <img src="/img/D_5.jpg" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="/img/omen.png" style="width: 100%" />
+        <img src="/img/sage.jpg" style="width: 100%" />
+        <img src="/img/killjoy.jpg" style="width: 100%" />
+        <img src="/img/fade_2.jpg" style="width: 100%" />
+        <img src="/img/d_3.jpg" style="width: 100%" />
+        <img src="/img/sova_2.jpg" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="/img/D.jpg" style="width: 100%" />
+        <img src="/img/reyna.jpg" style="width: 100%" />
+        <img src="/img/skye.jpg" style="width: 100%" />
+        <img src="/img/sova.png" style="width: 100%" />
+        <img src="/img/raze_2.jpg" style="width: 100%" />
+        <img src="/img/reyna_2.jpg" style="width: 100%" />
+        <img src="/img/fade.jpg" style="width: 100%" />
+      </div>
+      <div class="column">
+        <img src="/img/brim.jpg" style="width: 100%" />
+        <img src="/img/neon.png" style="width: 100%" />
+        <img src="/img/jett_2.jpg" style="width: 100%" />
+        <img src="/img/D_2.jpg" style="width: 100%" />
+        <img src="/img/cypher.jpg" style="width: 100%" />
+        <img src="/img/skye_2.png" style="width: 100%" />
       </div>
     </div>
     <!-- Content -End -->
