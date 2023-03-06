@@ -111,3 +111,17 @@ nav > ul > li > a:hover {
   }
 }
 /* CONTENT - END */
+
+.hero-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 3%;
+  
+}
+
+.hero-image > img{
+  width: 100%;
+}

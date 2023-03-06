@@ -1,118 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Valorant Karakterler</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      .row {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        padding: 0 4px;
-      }
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valorant Karakterler</title>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <style>
+    .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    .column {
+      -ms-flex: 25%;
+      /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 800px) {
       .column {
-        -ms-flex: 25%; /* IE10 */
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 4px;
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
       }
+    }
 
-      .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
       }
+    }
+  </style>
+</head>
 
-      @media screen and (max-width: 800px) {
-        .column {
-          -ms-flex: 50%;
-          flex: 50%;
-          max-width: 50%;
-        }
-      }
+<body>
+  <header>
+    <h1><a href="index.html">Riot Champions</a></h1>
+  </header>
 
-      @media screen and (max-width: 600px) {
-        .column {
-          -ms-flex: 100%;
-          flex: 100%;
-          max-width: 100%;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1><a href="index.html">Riot Champions</a></h1>
-    </header>
-
-    <hr />
-    <!-- navbar-start-->
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Anasayfa</a>
-        </li>
-        <li>
-          <a href="champions.html">Karakterler</a>
-        </li>
-        <li>
-          <a href="contact.html">İletişim</a>
-        </li>
-        <li>
-          <a href="champion-detail.html">Şampiyon Detay</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- navbar-end-->
-    <!-- Content - start -->
-    <!-- Photo Grid -->
-    <div class="row">
-      <div class="column">
-        <img src="assets/img/brim.jpg" style="width: 100%" />
-        <img src="assets/img/viper.jpg" style="width: 100%" />
-        <img src="assets/img/yoru.jpg" style="width: 100%" />
-        <img src="assets/img/raze.png" style="width: 100%" />
-        <img src="assets/img/D_4.jpg" style="width: 100%" />
-        <img src="assets/img/omen_2.jpg" style="width: 100%" />
-        <img src="assets/img/D_5.jpg" style="width: 100%" />
-      </div>
-      <div class="column">
-        <img src="assets/img/omen.png" style="width: 100%" />
-        <img src="assets/img/sage.jpg" style="width: 100%" />
-        <img src="assets/img/killjoy.jpg" style="width: 100%" />
-        <img src="assets/img/fade_2.jpg" style="width: 100%" />
-        <img src="assets/img/d_3.jpg" style="width: 100%" />
-        <img src="assets/img/sova_2.jpg" style="width: 100%" />
-      </div>
-      <div class="column">
-        <img src="assets/img/D.jpg" style="width: 100%" />
-        <img src="assets/img/reyna.jpg" style="width: 100%" />
-        <img src="assets/img/skye.jpg" style="width: 100%" />
-        <img src="assets/img/sova.png" style="width: 100%" />
-        <img src="assets/img/raze_2.jpg" style="width: 100%" />
-        <img src="assets/img/reyna_2.jpg" style="width: 100%" />
-        <img src="assets/img/fade.jpg" style="width: 100%" />
-      </div>
-      <div class="column">
-        <img src="assets/img/neon.png" style="width: 100%" />
-        <img src="assets/img/brim.jpg" style="width: 100%" />
-        <img src="assets/img/jett_2.jpg" style="width: 100%" />
-        <img src="assets/img/D_2.jpg" style="width: 100%" />
-        <img src="assets/img/cypher.jpg" style="width: 100%" />
-        <img src="assets/img/skye_2.png" style="width: 100%" />
-      </div>
+  <hr />
+  <!-- navbar-start-->
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Anasayfa</a>
+      </li>
+      <li>
+        <a href="champions.html">Karakterler</a>
+      </li>
+      <li>
+        <a href="contact.html">İletişim</a>
+      </li>
+      <li>
+        <a href="champion-detail.html">Şampiyon Detay</a>
+      </li>
+      <li>
+        <a href="map.html">Haritalar</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- navbar-end-->
+  <!-- Content - start -->
+  <!-- Photo Grid -->
+  <div class="row">
+    <div class="column">
+      <img src="assets/img/brim.jpg" style="width: 100%" />
+      <img src="assets/img/viper.jpg" style="width: 100%" />
+      <img src="assets/img/yoru.jpg" style="width: 100%" />
+      <img src="assets/img/raze.png" style="width: 100%" />
+      <img src="assets/img/D_4.jpg" style="width: 100%" />
+      <img src="assets/img/omen_2.jpg" style="width: 100%" />
+      <img src="assets/img/D_5.jpg" style="width: 100%" />
     </div>
-    <!-- Content -End -->
-  </body>
+    <div class="column">
+      <img src="assets/img/omen.png" style="width: 100%" />
+      <img src="assets/img/sage.jpg" style="width: 100%" />
+      <img src="assets/img/killjoy.jpg" style="width: 100%" />
+      <img src="assets/img/fade_2.jpg" style="width: 100%" />
+      <img src="assets/img/d_3.jpg" style="width: 100%" />
+      <img src="assets/img/sova_2.jpg" style="width: 100%" />
+    </div>
+    <div class="column">
+      <img src="assets/img/D.jpg" style="width: 100%" />
+      <img src="assets/img/reyna.jpg" style="width: 100%" />
+      <img src="assets/img/skye.jpg" style="width: 100%" />
+      <img src="assets/img/sova.png" style="width: 100%" />
+      <img src="assets/img/raze_2.jpg" style="width: 100%" />
+      <img src="assets/img/reyna_2.jpg" style="width: 100%" />
+      <img src="assets/img/fade.jpg" style="width: 100%" />
+    </div>
+    <div class="column">
+      <img src="assets/img/neon.png" style="width: 100%" />
+      <img src="assets/img/brim.jpg" style="width: 100%" />
+      <img src="assets/img/jett_2.jpg" style="width: 100%" />
+      <img src="assets/img/D_2.jpg" style="width: 100%" />
+      <img src="assets/img/cypher.jpg" style="width: 100%" />
+      <img src="assets/img/skye_2.png" style="width: 100%" />
+    </div>
+  </div>
+  <!-- Content -End -->
+</body>
+
 </html>
