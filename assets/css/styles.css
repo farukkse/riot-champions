@@ -145,7 +145,7 @@ nav > ul > li > a:hover {
   align-items: center;
   font-family: 'Shabnam', Tahoma, sans-serif;
   color: #000;
-  direction: rtl;
+  /* direction: rtl; */
 }
 
 #oopss #error-text img {
